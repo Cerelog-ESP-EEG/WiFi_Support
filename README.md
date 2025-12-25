@@ -6,7 +6,7 @@ This is a guide to use the device wirelesly by connecting the ESP-EEG to your lo
  
 ## For usage only with the forked OpenBCI Gui/LSL Streaming  
 
-**The Brainflow API instance currently only supported via USB (connect to laptop not connected to mains)** 
+**Note: To instead use Brainflow API instance, currently only supported via USB (connect to laptop not connected to mains)** 
 
 
 **To use WiFi to stream to OpenBCI GUI / LSL please read the below instructions**
