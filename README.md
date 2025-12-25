@@ -13,6 +13,5 @@ This is a guide to use the device wirelesly by connecting the ESP-EEG to your lo
   
 
 1. You Must flash the special firmware listed here using the Arduino IDE: Prior to flashing, enter the SSID and pasword of your network into the code before running so the device can connect to your network
-2. You must use the LSL python connection script listed here, don't use the python script shown in the orignal guide linked below (Its for USB connection)
-3. Follow these instructions, but dont use the python LSL script [Guide](https://github.com/Cerelog-ESP-EEG/How-to-use-OpenBCI-GUI-fork) 
+3. Follow these instructions here **but for step 6 You must use the LSL python connection script listed here for WiFI**  [Guide](https://github.com/Cerelog-ESP-EEG/How-to-use-OpenBCI-GUI-fork) 
 
