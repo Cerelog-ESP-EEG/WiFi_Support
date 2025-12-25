@@ -1,2 +1,18 @@
 # WiFi_Support
 WiFi Support (Under Dev)
+
+## About
+This is a guide to use the device wirelesly by connecting the ESP-EEG to your local network to stream data. The device defaults to USB streaming from its original firmware. Should, after setting all this up, you prefer to use USB to stream data flash this [original firmware](https://github.com/Cerelog-ESP-EEG/ESP-EEG/tree/main/firmware) back to revert changes
+
+
+## WIFI Support is currently under dev for usage only with the forked OpenBCI Gui/LSL Streaming  
+
+**Using the device with Brainflow API currently only supported via USB (connect to laptop not connected to mains)** 
+
+
+**To use WiFi to stream to OpenBCI GUI / LSL please follow these instructions [Guide](https://github.com/Cerelog-ESP-EEG/How-to-use-OpenBCI-GUI-fork) with the below changes:**
+
+1. You Must flash the special firmware listed here using the Arduino IDE
+2. You must use the LSL python connection script listed here, don't use the python script shown in the orignal guide linked above (Its for USB connection)
+
+
