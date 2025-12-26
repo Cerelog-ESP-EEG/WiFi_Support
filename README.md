@@ -12,10 +12,14 @@ This is a guide to use the device wirelesly by connecting the ESP-EEG to your lo
 **To use WiFi to stream to OpenBCI GUI / LSL please read the below instructions**
   
 
-1. You Must flash the special firmware listed here using the Arduino IDE: Prior to flashing, enter the SSID and pasword of your network into the code before running so the device can connect to your network
-3. Follow the 'Guide link' below **but for step 6 You must use the LSL python connection script listed here for WiFI**
+1. You Must flash the special firmware listed here (Look inside folder above '"(Works ) WiFI Firmware (Device Host)" ) using the Arduino IDE. You must then connect your computer to the device via the wifi hotspot it creates
+3. Almost identical steps to [Guide Link](https://github.com/Cerelog-ESP-EEG/How-to-use-OpenBCI-GUI-fork)  **but for step 6 You must use the LSL python connection script -> "Python_wifi_LSL.py" included here instead** 
 
    Getting an error?: If you run the python script inside VS code on mac you need to allow local network connections in privacy settings so the code can talk to device otherwise you get a 65 error
 
-[Guide](https://github.com/Cerelog-ESP-EEG/How-to-use-OpenBCI-GUI-fork) 
+
+
+
+
+
 
