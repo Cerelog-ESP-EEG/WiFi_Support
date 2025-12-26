@@ -20,7 +20,7 @@ Board: Navigate to Tools > Board > ESP32 Arduino and select 'ESP32 WROOM DA Modu
 
 2. You must then connect your computer to the device via the wifi hotspot it creates
    
-3. Almost identical steps to [Guide Link](https://github.com/Cerelog-ESP-EEG/How-to-use-OpenBCI-GUI-fork)  **but for step 6 You must use the LSL python connection script -> "Python_wifi_LSL.py" included here instead** 
+3. To link computer to device: Almost identical steps to [Guide Link](https://github.com/Cerelog-ESP-EEG/How-to-use-OpenBCI-GUI-fork)  **but for step 6 You must use the LSL python connection script -> "Python_wifi_LSL.py" included here instead** 
 
    Getting an error?: If you run the python script inside VS code on mac you need to allow local network connections in privacy settings so the code can talk to device otherwise you get a 65 error
 
