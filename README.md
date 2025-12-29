@@ -18,7 +18,7 @@ To flash: Download [Arduino Ide](http://arduino.cc/en/software/) , then config t
 
 Board: Navigate to Tools > Board > ESP32 Arduino and select 'ESP32 WROOM DA Module'. Port: Navigate to Tools > Port and select the COM port corresponding to your Cerelog board.
 
-2. You must then connect your computer to the device via the wifi hotspot it creates
+2. You must then connect your computer to the device via the wifi hotspot it creates. The device will show up as network device "CERELOG_EEG" Type in **cerelog123**  when asked for a password;
    
 3. To link computer to device: Almost identical steps to [Guide Link](https://github.com/Cerelog-ESP-EEG/How-to-use-OpenBCI-GUI-fork)  **but for step 6 You must use the LSL python connection script -> "Python_wifi_LSL.py" included here instead** 
 
